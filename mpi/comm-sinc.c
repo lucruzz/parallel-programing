@@ -4,8 +4,8 @@
 /* Computação de Alto Desempenho                        */
 /* MPI - Message Passing Interface                      */
 /* Comunicação síncrona                                 */
-/* Compilar: mpicc hello-mpi.c -o hello                 */
-/* Executar: mpirun --oversubscribe -np 3 ./hello       */
+/* Compilar: mpicc comm-sinc.c -o comsin                */
+/* Executar: mpirun --oversubscribe -np 3 ./comsin      */
 /*======================================================*/
 
 #include <stdio.h>
